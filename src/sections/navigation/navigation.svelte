@@ -31,7 +31,7 @@
             <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
                 {#each links as link }
                     <li>
-                        <a href="{link.link}" class:border-b-4={$page.route.id === link.link} class="text-gray-900 uppercase border-b-red-600 hover:underline">{link.title}</a>
+                        <a href="{link.link}" class:border-b-4={$page.route.id === link.link} class="text-gray-900 uppercase border-b-red-600 hover:border-b-4 hover:border-b-blue-600">{link.title}</a>
                     </li>
                 {/each}
             </ul>
